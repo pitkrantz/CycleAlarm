@@ -11,7 +11,7 @@ import SwiftUI
 struct CycleAlarm_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: SleepViewModel())
         }
     }
 }
